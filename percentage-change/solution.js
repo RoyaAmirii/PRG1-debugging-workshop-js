@@ -1,6 +1,6 @@
 function calculatePercentageChange(original, newAmount) {
   if (original ===0) {
-    return 0; //this was you avoid diving 0 by the original which is also worth 0
+    return 0; //this way you avoid diving 0 by the original which is also worth 0
   }
   const Change = (newAmount - original);
   const percentageChange = (Change / original) * 100;
